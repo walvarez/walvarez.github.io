@@ -1,0 +1,332 @@
+html, body {
+	min-height: 100%;
+	background-color: #F7F7F7;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 24px;
+	color: #808080;
+}
+
+h4 {
+	font-size: 17px;
+}
+
+.cover {
+    background-image: url("images/mariamulata01ctg.png");
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+    color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.welcome {
+	position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle {
+	position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*top nav CSS*/
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000000;
+	padding: 20px;
+	top: 0;
+	left: 0;
+	height: 25px;
+	color: #FFFFFF;
+}
+
+.name {
+	flex: 1;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.name a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.name a:link {
+    color: #FFFFFF;
+}
+
+.name a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.bar {
+	flex: 3;
+}
+
+.navlinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.links {
+	list-style-type: none;
+	font-size: 14px;
+	justify-content: center;
+}
+
+.links a {
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.bar {
+	flex: 1;
+}
+
+.logo {
+	flex: 1;
+}
+
+
+/*middle section CSS*/
+
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-mini {
+	flex: 1;
+	justify-content: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.container-mini p {
+	text-align: center;
+	margin-top: 1px;
+}
+
+.container-mini a {
+	text-decoration: none;
+}
+
+.images {
+	text-align: center;
+}
+
+.images img {
+	width: 100%;
+}
+
+.title1 {
+	background-color: #CD853F;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+}
+
+.title2 {
+	background-color: #87CEFA;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+}
+
+.title3 {
+	background-color: #FF69B4;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+}
+
+.title4 {
+	background-color: #FF4500;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+}
+
+.title5 {
+	background-color: #9ACD32;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+}
+
+.title6 {
+	background-color: #FFD700;
+	padding-top: 5px;
+	padding-bottom: 1px;
+	color: #FFFFFF;
+}
+
+/*bottom section CSS*/
+
+.bottom {
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	background: #000000;
+	padding: 20px;
+    color: #FFFFFF;
+	margin-top: 50px;
+}
+
+.about {
+	flex: 1;
+	padding-right: 50px;
+	padding-left: 20px;
+	line-height: 1.5;
+}
+
+.contact {
+	flex: 1;
+	padding-left: 30px;
+}
+
+.copyright {
+	font-size: 12px;
+	padding-left: 30px;
+}
+
+/*gallery CSS*/
+
+.gallery-header {
+    background-image: url("images/gallery-header.jpg");
+    background-size: cover;
+    min-height: 50vh;
+    justify-content: center;
+    align-content: center;
+    color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.gallery-welcome {
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery-subtitle {
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*gallery grid CSS*/
+
+.theme {
+	padding-left: 30px;
+}
+
+.row1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.picture {
+	flex: 1;
+	justify-content: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.picture p {
+	text-align: center;
+	margin-top: 1px;
+}
+
+.picture a {
+	text-decoration: none;
+}
+
+.image {
+	text-align: center;
+}
+
+/*food & drink CSS*/
+
+.food-header {
+    background-image: url("images/food-header.png");
+    background-size: cover;
+    min-height: 50vh;
+    justify-content: center;
+    align-content: center;
+    color: white;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.food-title {
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+.food-subtitle {
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+.intro {
+	padding-left: 30px;
+	padding-right: 70px;
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
+
+.intro2 {
+	padding-left: 30px;
+	padding-right: 70px;
+    margin-bottom: 50px;
+	line-height: 1.5;
+}
