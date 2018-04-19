@@ -15,7 +15,7 @@ h2 {
 
 h3 {
 	font-size: 24px;
-	color: #808080;
+	color: #FFFFFF;
 }
 
 h4 {
@@ -328,5 +328,39 @@ h4 {
 	padding-left: 30px;
 	padding-right: 70px;
     margin-bottom: 50px;
+	line-height: 1.5;
+}
+
+/*blog CSS*/
+
+.blog-header {
+    background-image: url("images/blog-masthead.png");
+    background-size: cover;
+    min-height: 50vh;
+    justify-content: center;
+    align-content: center;
+    color: white;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.blog-post {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blog-date {
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blog-body {
+	padding-left: 30px;
+	padding-right: 70px;
+	margin-bottom: 50px;
 	line-height: 1.5;
 }
